@@ -34,8 +34,8 @@ const App = () => {
         Choose a location and covert it into the cube's skin
       </h1>
       <div className="grid md:grid-cols-2 gap-x-5 gap-y-3 w-full">
-        <div className="text-lg font-medium text-purple-500 py-3 bg-white shadow-md rounded-md text-center">Select Map</div>
-        <div className="text-lg font-medium text-purple-500 py-3 bg-white shadow-md rounded-md text-center">Cube</div>
+        <div className="hidden md:block text-lg font-medium text-purple-500 py-3 bg-white shadow-md rounded-md text-center">Select Map</div>
+        <div className="hidden md:block text-lg font-medium text-purple-500 py-3 bg-white shadow-md rounded-md text-center">Cube</div>
         <div className="flex flex-grow flex-col justify-center items-center rounded-md py-5 bg-white shadow-md">
           <div className=" h-64 w-64 lg:h-96 lg:w-96 rounded-md overflow-hidden">
             <Map ref={compToPrint} />
